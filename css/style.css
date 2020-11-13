@@ -1,0 +1,33 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ @font-face {
+  font-family:"Montserrat-Regular"; 
+  src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family:"paloseco"; 
+  src: url(../fonts/paloseco/Paloseco-Light.ttf);
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+body{
+  background-size: cover;
+  background-image: url(../img/fondo\ web.jpg);
+  background-repeat: no-repeat;
+}
+.btn-round{
+  border-radius: 50px;
+}
+.btn-distance{
+  margin-top: 10px;
+}
